@@ -1,0 +1,16 @@
+[
+  {
+    "source": "source.csv",
+    "masked": "masked.csv",
+    "domains": {
+      "id": "person"
+    }
+  },
+  {
+    "source": "visits-source.csv",
+    "masked": "visits-masked.csv",
+    "domains": {
+      "ref": "person"
+    }
+  }
+]

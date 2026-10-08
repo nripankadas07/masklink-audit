@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "masklink-audit"
+version = "0.1.0"
+description = "Audit row-aligned source/masked export pairs for unchanged/erased identifiers, per-domain collisions, inconsistent tokens and changed non-ID anchor cells; reports omit cell values."
+requires-python = ">=3.10"
+readme = "README.md"
+license = "MIT"
+authors = [{name = "Nripanka Das"}]
+dependencies = []
+
+[project.scripts]
+masklink-audit = "masklink_audit:main"
+
+[project.urls]
+Repository = "https://github.com/nripankadas07/masklink-audit"
+Issues = "https://github.com/nripankadas07/masklink-audit/issues"
+
+[tool.setuptools]
+py-modules = ["masklink_audit"]

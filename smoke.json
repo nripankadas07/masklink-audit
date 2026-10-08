@@ -1,0 +1,20 @@
+[
+  {
+    "args": [
+      "manifest.json"
+    ],
+    "exit": 0
+  },
+  {
+    "args": [
+      "bad-manifest.json"
+    ],
+    "exit": 1
+  },
+  {
+    "args": [
+      "invalid.json"
+    ],
+    "exit": 2
+  }
+]

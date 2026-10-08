@@ -1,0 +1,9 @@
+[
+  {
+    "source": "source.csv",
+    "masked": "bad-masked.csv",
+    "domains": {
+      "id": "person"
+    }
+  }
+]
